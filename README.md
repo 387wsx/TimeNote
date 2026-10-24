@@ -10,7 +10,7 @@
 
 | 文件 | 说明 |
 |---|---|
-| [CountdownReminder.exe](https://github.com/387wsx/TimeNote/raw/main/CountdownReminder.exe) | Windows 10/11 64 位，单文件，约 11.7 MB |
+| [CountdownReminder.exe](https://github.com/387wsx/TimeNote/releases/latest/download/CountdownReminder.exe) | Windows 10/11 64 位，单文件，约 11.7 MB |
 | [源代码](reminder_improved.py) | Python 3.10+ / tkinter，无第三方运行时依赖 |
 
 第一次运行如果弹出 SmartScreen，点“更多信息 → 仍要运行”即可；exe 没有代码签名。
