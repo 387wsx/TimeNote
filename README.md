@@ -4,7 +4,7 @@
 
 界面尽量克制，主界面只保留内容、词库、开始/暂停、预览和设置。
 
-<span style="color:#ff2222; font-size:1.6em;">叠 甲</span>
+<span style=" color:#dd2222; font-size: 2em; font-weight:bold;">叠                     甲</span>
 
 > 这是一个学生借助 AI 完成的小项目，难免粗糙，欢迎友善的建议；不喜勿喷，感谢理解。
 > 
