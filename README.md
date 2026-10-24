@@ -4,14 +4,14 @@
 
 界面尽量克制，主界面只保留内容、词库、开始/暂停、预览和设置。
 
-<span style=" color:#dd2222; font-size: 2em; font-weight:bold;">叠                     甲</span>
+<img src="docs/dijia.png" alt="叠甲" width="120">
 
 > 这是一个学生借助 AI 完成的小项目，难免粗糙，欢迎友善的建议；不喜勿喷，感谢理解。
 > 
 > 这是一个自用/学习项目，不是生产级软件；代码结构比较扁平。
 > 
 > 欢迎具体建议，但请别按商业项目的标准要求它。
-> 
+
 ![主界面](docs/main-light.png)
 
 ## 下载
