@@ -1,0 +1,37 @@
+name: Build Windows EXE
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: python -m pip install -r requirements-build.txt
+
+      - name: Build one-file EXE
+        run: |
+          python -m PyInstaller --noconfirm --clean --onefile --windowed --name CountdownReminder --icon app.ico --version-file version.txt --add-data "app.ico;." --noupx reminder_improved.py
+
+      - name: Upload EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: CountdownReminder
+          path: dist/CountdownReminder.exe
+          if-no-files-found: error
