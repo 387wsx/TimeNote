@@ -119,7 +119,7 @@ docs/                      README 截图
 
 - 仅支持 Windows；Android 版计划用 Flutter 单独实现。
 - 单文件版首次启动会解压到临时目录，慢 1–2 秒。
-- 未做代码签名，公开分发可能触发 SmartScreen。
+- 未做代码签名，公开分发可能触发 SmartScreen；签名方案见 [SIGNING.md](SIGNING.md)。
 - 数据只存在本机，没有云同步。
 
 ## 关于这个项目
