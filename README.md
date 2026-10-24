@@ -4,7 +4,7 @@
 
 界面尽量克制，主界面只保留内容、词库、开始/暂停、预览和设置。
 
-<img src="docs/dijia.png" alt="叠甲" width="120">
+<img src="docs/dijia.png" alt="叠甲" width="160">
 
 > 这是一个学生借助 AI 完成的小项目，难免粗糙，欢迎友善的建议；不喜勿喷，感谢理解。
 > 
